@@ -1,0 +1,73 @@
+html {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  overflow: auto;
+}
+
+body {
+  margin: 0;
+  background-color: rgb(247, 249, 252);
+  font-family: poppins, "Helvetica", "Arial", sans-serif;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+#root {
+  display: flex;
+}
+
+nav {
+  height: 100%;
+  width: 240px;
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+  justify-content: space-between;
+}
+
+.mainLogo {
+  padding: 20px 50px;
+  width: 100%;
+  text-align: center;
+  max-width: 240px;
+}
+
+main {
+  height: 100%;
+  flex: 1;
+}
+
+.departmentCard {
+  margin: 20px;
+}
+
+.dataGrid .MuiDataGrid-cell {
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 0px;
+  border-bottom: 0.2px !important;
+  border-color: "#6C757D";
+  border-style: solid !important;
+}
+
+.dataGrid .MuiDataGrid-withBorderColor {
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 0px;
+  border-bottom: 1.5px !important;
+  border-color: "#6C757D" !important;
+  border-style: solid !important;
+}
+
+.cell-font-size {
+  font-size: 13px;
+}
